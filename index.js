@@ -42,3 +42,19 @@ function checkWinner() {
     return player == "ROCK" ? "You Win!" : "You Lose!";
   }
 }
+let modal = document.querySelector(".modal");
+let cancel = document.querySelector(".iks");
+let rules = document.querySelector(".rules");
+
+// function showModal() {
+//   rules.classList.toggle("active");
+// }
+function showModal() {
+  rules.classList.remove("rules");
+}
+function cancelModal() {
+  rules.classList.add("rules");
+}
+
+modal.addEventListener("click", showModal);
+cancel.addEventListener("click", cancelModal);
