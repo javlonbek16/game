@@ -1,0 +1,70 @@
+/* .choiceBtn {
+  cursor: pointer;
+  border: none;
+  background-color: #0000ff;
+  border-radius: 50%;
+  width: 150px;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  color: seashell;
+}
+
+.choice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.game-textF {
+  color: blue;
+}
+
+.game-textS {
+  color: green;
+}
+
+.game-textT {
+  color: red;
+}
+.scissors {
+  background-color: blue;
+}
+.paper {
+  background-color: green;
+}
+
+.rock {
+  background-color: red;
+}
+
+.result-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background-color: gold;
+} */
+
+.choiceBtn {
+  line-height: 30px;
+  width: 150px;
+}
+#gameDiv {
+  font-family: "Brush Script MT", cursive;
+  border: 3px solid;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: lightgrey;
+  text-align: center;
+}
+#playerText {
+  color: blue;
+}
+#computerText {
+  color: red;
+}
